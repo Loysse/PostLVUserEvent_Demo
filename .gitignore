@@ -4,6 +4,8 @@
 
 # Shared objects (inc. Windows DLLs)
 *.dll
+!skeleton_lv_event_lv.dll
+!skeleton_lv_event_lvrt.dll
 *.so
 *.so.*
 *.dylib
@@ -15,3 +17,6 @@
 *.aliases
 *.lvlps
 .cache/
+
+# Folder
+Build
