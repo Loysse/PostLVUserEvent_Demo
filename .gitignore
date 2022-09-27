@@ -10,6 +10,11 @@
 *.so.*
 *.dylib
 
+# Library and Object
+
+*.a
+*.o
+
 # Executables
 *.exe
 
